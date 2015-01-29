@@ -20,9 +20,13 @@ namespace HelloWorld
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string Hp;
+        public string Name;
         public MainWindow()
         {
             InitializeComponent();
         }
+        
+        
     }
 }
